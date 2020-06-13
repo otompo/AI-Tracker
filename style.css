@@ -27,3 +27,33 @@
 #codiv_count .card{
     box-shadow: 3px 4px 6px #00000031;
 }
+
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)
+{
+
+
+td {
+            
+            border: none;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding-left: 100% !important; 
+        }
+
+
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .table tr th { 
+        width: 10%; 
+     }
+
+
+
+}
